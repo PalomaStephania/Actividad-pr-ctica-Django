@@ -27,6 +27,14 @@ INSTALLED_APPS = [
     'aplications.tutores',
     'aplications.canalizaciones',
     'aplications.psicologia',
+    'aplications.becas',
+    'aplications.carreras',
+    'aplications.docentes',
+    'aplications.encargadobecas',
+    'aplications.grupos',
+    'aplications.pedagogos',
+    'aplications.psicologos',
+    'aplications.tutores',
 ]
 
 MIDDLEWARE = [
