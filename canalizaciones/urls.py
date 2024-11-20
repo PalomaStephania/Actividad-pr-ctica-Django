@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from aplications.home.views import IndexView
+from aplications.home.views import IndexView, PruebaLista, ArraysView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', IndexView.as_view()),
+    path('lista/', PruebaLista.as_view()),
+    path('arrays/', ArraysView.as_view()),
+
 ]
