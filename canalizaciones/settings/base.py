@@ -22,19 +22,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #local apps
-    'aplications.home',
-    'aplications.pedagogia',
-    'aplications.tutores',
-    'aplications.canalizaciones',
-    'aplications.psicologia',
     'aplications.becas',
     'aplications.carreras',
     'aplications.docentes',
     'aplications.encargadobecas',
     'aplications.grupos',
+    'aplications.home',
     'aplications.pedagogos',
     'aplications.psicologos',
-    'aplications.tutores',
 ]
 
 MIDDLEWARE = [

@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Grupo(models.Model):
+class Grupos(models.Model):
     idGrupo = models.AutoField(primary_key=True)
     cveGrupo = models.CharField(max_length=10, unique=True, null=False)
     nombreGrupo = models.CharField(max_length=20, null=False)

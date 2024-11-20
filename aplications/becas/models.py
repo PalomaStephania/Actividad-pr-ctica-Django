@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Beca(models.Model):
+class Becas(models.Model):
     idBeca = models.AutoField(primary_key=True)  # AUTO_INCREMENT, NOT NULL
     nombreBeca = models.CharField(max_length=255, null=False)  # NOT NULL
     tipoBeca = models.CharField(max_length=20, null=False)  # NOT NULL
